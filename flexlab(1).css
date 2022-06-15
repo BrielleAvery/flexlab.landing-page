@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head-header{
+    height: 75px;
+    width: 68.5%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.head-header-left{
+    width: 50%;
+    display: flex;
+}
+.phone-header{
+    display: flex;
+    padding-right: 20px;
+}
+.head-header-left img,p{
+    height: 22px;
+    padding-right: 10px;
+}
+.location-header{
+    display: flex;
+}
+.head-header-right{
+    width: 50%;
+    /* align-items: center; */
+    /* display: flex; */
+    /* display: flex; */
+    /* float: right; */
+}
+.head-header-right img{
+    height: 22px;
+    float: right;
+    margin: 10px;
+    padding: 0px 0px;
+    justify-content: space-between;
+
+    /* padding-top: 10px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.white-heart-img{
+    position: relative;
+    left: 25px;
+}
+.shop-img{
+    position: relative;
+    height: 18px !important;
+}
+.shop-tyre{
+    height: 5px !important;
+    position: relative !important;
+    left: 36px;
+    top: 26px;
+    margin: 3px !important;
+}
+
+.head-btn{
+    height: 40px; 
+    /* width: 249px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-bottom: 20px; */
+    padding-left: 20px;
+    float: right;
+}
+.nav-button{
+    background:  linear-gradient(84.98deg, #205784 0%, #0B3355 100%);
+    border-radius: 6px;
+    color: white;
+    height: 40px;
+    width: 220px;
+    align-items: center;
+    font-size: 16px;
+    /* padding: 10px 40px; */
+
+    /* padding: 10px 40px; */
+}
+@media only screen and (max-width: 770px) and (min-width:360px) {
+    .head-header{
+        height: 60px;
+        width: 95%;
+    }
+    
+    .phone-header{
+        padding-right: 0px !important;
+    }
+    .head-header-left img{
+        height: 20px;
+        padding-right: 5px;
+    }
+    .head-header-left p{
+        font-size: 14px;
+        padding-right: 6px !important;
+    }
+    .location-header{
+    }
+    .head-header-right{
+        width: 50%;
+        /* align-items: center; */
+        /* display: flex; */
+        /* display: flex; */
+        /* float: right; */
+    }
+    .head-header-right img{
+        height: 16px;
+        float: right;
+        margin: 0px;
+        padding: 0px 0px;
+        /* justify-content: space-between; */
+    
+        /* padding-top: 10px; */
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .white-heart-img{
+        position: relative;
+        left: 10px;
+        top: 8px;
+    }
+    .shop-img{
+        position: relative;
+        top: 8px;
+        height: 15px !important;
+    }
+    .shop-tyre{
+        height: 3px !important;
+        position: relative !important;
+        left: 22px;
+        top: 21px;
+        margin: 3px !important;
+    }
+    
+    .head-btn{
+        height: 40px; 
+        /* width: 249px;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* padding-bottom: 20px; */
+        padding-left: 10px;
+        float: right;
+    }
+    .nav-button{
+        background:  linear-gradient(84.98deg, #205784 0%, #0B3355 100%);
+        border-radius: 6px;
+        color: white;
+        height: 40px;
+        width: 90px;
+        align-items: center;
+        font-size: 12px;
+        /* padding: 10px 40px; */
+    
+        /* padding: 10px 40px; */
+    }
+}
